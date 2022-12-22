@@ -1,0 +1,28 @@
+input {
+    text-align: right;
+    border-radius: 5px;
+    border-color: lightgrey;
+    font-size: 35px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #f1f3f4;
+    width: 20px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.button:active {
+    border-color: black;
+}
